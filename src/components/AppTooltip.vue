@@ -36,6 +36,7 @@ export default {
 
 .tooltip-trigger
   cursor: help
+  border-bottom: 1px dashed rgba(#000, 0.5)
 
 .tooltip-content
   position: absolute
@@ -46,6 +47,6 @@ export default {
   background: #fafafa
   box-shadow: 0 0 1px 1px rgba(#000, 0.15)
   left: 0
-  bottom: 0
+  bottom: -5px
   transform: translateY(100%)
 </style>
