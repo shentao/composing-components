@@ -3,8 +3,8 @@
     <slot name="selected">some content {{ value }}</slot>
     <ul slot="content" class="content" slot-scope="{ setIsOpen }">
       <li
-        v-for="option of options"
-        :key="option"
+        v-for="(option, index) of options"
+        :key="index"
         @click="update(option, setIsOpen)"
       >
         <slot name="option" :option="option">{{ option }}</slot>
@@ -25,7 +25,7 @@ export default {
       type: Array
     },
     value: {
-      type: String
+      type: [String, Object]
     }
   },
   methods: {

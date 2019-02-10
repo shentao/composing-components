@@ -8,7 +8,7 @@
           Dropdown can have different contents inside.<br/>
           You can even put more buttons inside if you want!
         </p>
-        <AppButton @click="setIsOpen(false)">Close!</AppButton>
+        <AppButton @click="setIsOpen(false)">Close</AppButton>
       </div>
     </AppDropdown>
   </div>
@@ -19,7 +19,6 @@ import AppDropdown from '@/components/AppDropdown'
 import AppButton from '@/components/AppButton'
 
 export default {
-  name: 'app',
   components: {
     AppDropdown,
     AppButton

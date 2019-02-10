@@ -17,7 +17,6 @@
 import AppTooltip from '@/components/AppTooltip'
 
 export default {
-  name: 'app',
   components: {
     AppTooltip
   },
