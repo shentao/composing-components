@@ -4,6 +4,7 @@ import Home from './views/Home.vue'
 import ExampleOne from './views/ExampleOne.vue'
 import ExampleTwo from './views/ExampleTwo.vue'
 import ExampleThree from './views/ExampleThree.vue'
+import Dynamic from './views/Dynamic.vue'
 
 Vue.use(Router)
 
@@ -28,6 +29,11 @@ export default new Router({
       path: '/example-three',
       name: 'example-three',
       component: ExampleThree
+    },
+    {
+      path: '/dynamic',
+      name: 'dynamic',
+      component: Dynamic
     }
   ]
 })

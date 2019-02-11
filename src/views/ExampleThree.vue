@@ -27,7 +27,7 @@ export default {
   },
   data () {
     return {
-      value: '',
+      value: {},
       options: [
         { name: 'Vue-Multiselect', stars: '3904' },
         { name: 'Vuelidate', stars: '3369' },

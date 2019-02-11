@@ -5,6 +5,7 @@
       <router-link to="/example-one">Example #1</router-link> |
       <router-link to="/example-two">Example #2</router-link> |
       <router-link to="/example-three">Example #3</router-link>
+      <router-link to="/dynamic">Dynamic</router-link>
     </div>
     <router-view/>
   </div>
